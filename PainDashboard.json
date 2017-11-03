@@ -1,0 +1,10 @@
+{"tableaumetrics": {
+    "keyWord" : "Competitor 1 Details",
+    "reportUrl" : "https://public.tableau.com/views/PainDashboard/HomePage", 
+    "sheetName" : "Com-1 Share",
+    "columnName": {
+        "Share": "AGG(`Calc - Dllr Shr Chg )",
+        "Trend": "AGG(`Dllr_Share_chg_py_calc)",
+        "$ Share PY Change": "SUM(`Dllr Share Amount PM/XPM/Therma case)"
+    }
+}} 
