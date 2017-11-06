@@ -13,21 +13,6 @@
 					]
 }
 
-},
-{"tableaumetrics": { 
-    "keyWord" : "Competitor 1 Details",
-    "reportUrl" : "https://public.tableau.com/views/PainDashboard/HomePage", 
-    "sheetName" : "Com-1 Share",
-    "columnName": [
-					"AGG(`Calc - Dllr Shr Chg )",
-					"AGG(`Dllr_Share_chg_py_calc)",
-					"SUM(`Dllr Share Amount PM/XPM/Therma case)"
-				  ],
-	"columnValue" : [
-						"Share",
-						"Trend",
-						"PY value"
-					]
 }
 
 }
