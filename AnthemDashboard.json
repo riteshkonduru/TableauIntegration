@@ -20,8 +20,8 @@
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
       "sheetName": "Incidents Home4",
       "columnName": [
-        "SUM([Open At Beginning])",
-        "SUM([New Created])"
+        "Measure Names",
+        "Measure Values"
       ],
       "columnValue": [
         "Open At Beginning",
