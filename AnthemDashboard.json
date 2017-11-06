@@ -21,12 +21,13 @@
       "sheetName": "Incidents Home4",
       "columnName": [
         "Measure Names",
-        "Measure Values",
-		"Prior Complex ChangeType"
+        "Prior Complex ChangeType",
+        "Measure Values"
       ],
       "columnValue": [
-        "Open At Beginning",
-        "New Created"
+        "MeasureName",
+        "Complexity",
+        "MeasureValue"
       ]
     }
   }
