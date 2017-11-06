@@ -21,7 +21,8 @@
       "sheetName": "Incidents Home4",
       "columnName": [
         "Measure Names",
-        "Measure Values"
+        "Measure Values",
+		"Prior Complex ChangeType"
       ],
       "columnValue": [
         "Open At Beginning",
