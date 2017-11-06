@@ -1,33 +1,32 @@
-
-[{"tableaumetrics": { 
-    "keyWord" : "Competitor 1 Details",
-    "reportUrl" : "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 
-    "sheetName" : "Incidents Home4",
-    "columnName": [
-					"SUM([Open At Beginning])",
-					"SUM([New Created])"
-				  ],
-	"columnValue" : [
-						"Open At Beginning",
-						"New Created"
-					]
-}
-
-},
-{"tableaumetrics": { 
-    "keyWord" : "Incidents 4 Details",
-    "reportUrl" : "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no", 
-    "sheetName" : "Incidents Home4",
-    "columnName": [
-					"SUM([Open At Beginning])",
-					"SUM([New Created])"
-				  ],
-	"columnValue" : [
-						"Open At Beginning",
-						"New Created"
-					]
-}
-
-}
-
+[
+  {
+    "tableaumetrics": {
+      "keyWord": "Competitor 1 Details",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Incidents Home4",
+      "columnName": [
+        "SUM([Open At Beginning])",
+        "SUM([New Created])"
+      ],
+      "columnValue": [
+        "Open At Beginning",
+        "New Created"
+      ]
+    }
+  },
+  {
+    "tableaumetrics": {
+      "keyWord": "Incidents 4 Details",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Incidents Home4",
+      "columnName": [
+        "SUM([Open At Beginning])",
+        "SUM([New Created])"
+      ],
+      "columnValue": [
+        "Open At Beginning",
+        "New Created"
+      ]
+    }
+  }
 ]
