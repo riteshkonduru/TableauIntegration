@@ -16,9 +16,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "Incidents 4 Details",
+      "keyWord": "Incidents 2 Details",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Incidents Home4",
+      "sheetName": "Incidents Home2",
       "columnName": [
         "Measure Names",
         "Prior Complex ChangeType",
