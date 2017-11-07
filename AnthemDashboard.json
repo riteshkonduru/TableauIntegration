@@ -1,22 +1,24 @@
 [
   {
     "tableaumetrics": {
-      "keyWord": "Competitor 1 Details",
+      "keyWord": "Service Requests",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Incidents Home4",
+      "sheetName": "Service Request Summary",
       "columnName": [
-        "SUM([Open At Beginning])",
-        "SUM([New Created])"
+        "Measure Names",
+        "Prior Complex ChangeType",
+        "Measure Values"
       ],
       "columnValue": [
-        "Open At Beginning",
-        "New Created"
+        "MeasureName",
+        "Complexity",
+        "MeasureValue"
       ]
     }
   },
   {
     "tableaumetrics": {
-      "keyWord": "Incidents 2 Details",
+      "keyWord": "Incidents",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
       "sheetName": "Incidents Home2",
       "columnName": [
