@@ -46,25 +46,29 @@
       ]
     }
   },
-    {
+  {
     "tableaumetrics": {
       "keyWord": "Dashboard Details",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
       "sheetName": "Business Impact Hours",
       "columnName": [
-        "AVG([In-Scope Application Availability (Uptime %)*])"
+        "AVG([In-Scope Application Availability(Uptime %)*])"
       ],
       "columnValue": [
         "Application Availability"
       ]
-    },
+    }
+  },
   {
     "tableaumetrics": {
       "keyWord": "ETL",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
       "sheetName": "ETL",
       "columnName": [
-        "ETL_STTS","Module","AGG(ZN(LOOKUP(AVG([Abort %]),0)))","Application"
+        "ETL_STTS",
+        "Module",
+        "AGG(ZN(LOOKUP(AVG([Abort %]),0)))",
+        "Application"
       ],
       "columnValue": [
         "Application Availability"
