@@ -52,7 +52,7 @@
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
       "sheetName": "ETL",
       "columnName": [
-        "AVG([In-Scope Application Availability (Uptime %)*])"
+        "ETL_STTS","Module","AGG(ZN(LOOKUP(AVG([Abort %]),0)))","Application"
       ],
       "columnValue": [
         "Application Availability"
