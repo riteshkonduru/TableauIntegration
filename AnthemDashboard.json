@@ -46,6 +46,18 @@
       ]
     }
   },
+    {
+    "tableaumetrics": {
+      "keyWord": "Dashboard Details",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Business Impact Hours",
+      "columnName": [
+        "AVG([In-Scope Application Availability (Uptime %)*])"
+      ],
+      "columnValue": [
+        "Application Availability"
+      ]
+    },
   {
     "tableaumetrics": {
       "keyWord": "ETL",
