@@ -32,5 +32,31 @@
         "MeasureValue"
       ]
     }
+  },
+  {
+    "tableaumetrics": {
+      "keyWord": "Dashboard Details",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Business Impact Hours",
+      "columnName": [
+        "AVG([Business Impact Hours*])"
+      ],
+      "columnValue": [
+        "Business Impact Hours"
+      ]
+    }
+  },
+  {
+    "tableaumetrics": {
+      "keyWord": "Dashboard Details",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Application Availability",
+      "columnName": [
+        "AVG([In-Scope Application Availability (Uptime %)*])"
+      ],
+      "columnValue": [
+        "Application Availability"
+      ]
+    }
   }
 ]
