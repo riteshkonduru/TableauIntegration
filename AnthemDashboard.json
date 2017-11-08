@@ -48,9 +48,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "Dashboard Details",
+      "keyWord": "ETL",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Application Availability",
+      "sheetName": "ETL",
       "columnName": [
         "AVG([In-Scope Application Availability (Uptime %)*])"
       ],
