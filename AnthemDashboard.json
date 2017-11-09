@@ -1,5 +1,22 @@
 [
   
+    {
+    "tableaumetrics": {
+      "keyWord": "Service Requests",
+      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
+      "sheetName": "Service Request Summary",
+      "columnName": [
+        "Measure Names",
+        "Prior Complex ChangeType",
+        "Measure Values"
+      ],
+      "columnValue": [
+        "MeasureName",
+        "Complexity",
+        "MeasureValue"
+      ]
+    }
+  },
   {
     "tableaumetrics": {
       "keyWord": "Incidents",
