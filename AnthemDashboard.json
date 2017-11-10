@@ -1,9 +1,9 @@
 [
   {
     "tableaumetrics": {
-      "keyWord": "Service Requests",
+      "Dashboard": "Home",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Service Request Summary",
+      "DashboardPart": "Service Request Summary",
       "columnName": [
         "Measure Names",
         "Prior Complex ChangeType",
@@ -18,9 +18,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "Incidents",
+      "Dashboard": "Home",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Incidents Home2",
+      "DashboardPart": "Incidents Home2",
       "columnName": [
         "Measure Names",
         "Prior Complex ChangeType",
@@ -35,9 +35,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "Dashboard Details",
+      "Dashboard": "Dashboard Details",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Business Impact Hours",
+      "DashboardPart": "Business Impact Hours",
       "columnName": [
         "AVG([Business Impact Hours*])"
       ],
@@ -48,9 +48,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "Dashboard Details",
+      "Dashboard": "Dashboard Details",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "Business Impact Hours",
+      "DashboardPart": "Business Impact Hours",
       "columnName": [
         "AVG([In-Scope Application Availability(Uptime %)*])"
       ],
@@ -61,9 +61,9 @@
   },
   {
     "tableaumetrics": {
-      "keyWord": "ETL",
+      "Dashboard": "ETL",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "sheetName": "ETL",
+      "DashboardPart": "ETL",
       "columnName": [
         "ETL_STTS",
         "Module",
@@ -77,9 +77,9 @@
   },
     {
     "tableaumetrics": {
-      "keyWord": "Incidents Trends Summary",
+      "Dashboard": "Incidents Trends Summary",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/IncidentsTrendsSummary?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no#3",
-      "sheetName": "Incident Priority",
+      "DashboardPart": "Incident Priority",
       "columnName": [
         "Prior Complex ChangeType",
         "Status",
