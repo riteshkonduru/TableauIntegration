@@ -74,21 +74,5 @@
         "Application Availability"
       ]
     }
-  },
-    {
-    "tableaumetrics": {
-      "keyWord": "Incident Priority",
-      "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/IncidentsTrendsSummary?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no#3",
-      "sheetName": "Incident Priority",
-      "columnName": [
-        "Prior Complex ChangeType",
-        "Status",
-        "AGG(ZN(LOOKUP(AVG([Abort %]),0)))",
-        "Application"
-      ],
-      "columnValue": [
-        "Application Availability"
-      ]
-    }
   }
 ]
