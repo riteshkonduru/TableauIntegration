@@ -3,7 +3,7 @@
     "tableaumetrics": {
       "dashboard": "Home",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/Home?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no",
-      "DashboardPart": "Service Request Summary",
+      "dashboardPart": "Service Request Summary",
       "columnName": [
         "Measure Names",
         "Prior Complex ChangeType",
