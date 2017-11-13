@@ -79,7 +79,7 @@
     "tableaumetrics": {
       "dashboard": "Incidents Trends Summary",
       "reportUrl": "https://tableau.internal.deloitte.com/views/AnthemLODashboard/IncidentsTrendsSummary?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no#3",
-      "dashboardPart": "Incident Priority",
+      "dashboardPart": "Incident Priority ",
       "columnName": [
         "Prior Complex ChangeType",
         "Status",
