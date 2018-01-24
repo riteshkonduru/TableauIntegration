@@ -1,0 +1,9 @@
+[
+  {
+    "tableaumetrics": {
+      "dashboard": "Home",
+      "reportUrl": "https://public.tableau.com/profile/sarat.varanasi#!/vizhome/SalesDashboard_414/Dashboard1",
+      "dashboardPart": ["Map","Line", "Category Bar", "Bubbles"]
+    }
+  }
+]
