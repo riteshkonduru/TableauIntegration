@@ -2,9 +2,9 @@
   {
     "tableaumetrics": {
       "dashboard": "Dashboard 1",
-      "measures": ["SUM(Profit)","SUM(Quantity)", "SUM(Sales)", "Bubbles"],
+      "measures": ["SUM(Profit)","SUM(Quantity)", "SUM(Sales)"],
       "dimensions" : ["Country", "State"],
-      "textTemplate" : "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>.The lowest profit of <LowestProfit> were observed in <LowestProfitRegion>."
+      "textTemplate" : "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>."
     }
   }
 ]
