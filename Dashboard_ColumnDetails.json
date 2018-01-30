@@ -2,9 +2,16 @@
   {
     "tableaumetrics": {
       "dashboard": "Dashboard 1",
-      "measures": ["SUM(Profit)","SUM(Quantity)", "SUM(Sales)"],
-      "dimensions" : ["Country", "State"],
-      "textTemplate" : "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>."
+      "measures": [
+        "SUM(Profit)",
+        "SUM(Quantity)",
+        "SUM(Sales)"
+      ],
+      "dimensions": [
+        "Country",
+        "State"
+      ],
+      "textTemplate": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>."
     }
   }
 ]
