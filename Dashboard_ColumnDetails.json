@@ -2,16 +2,9 @@
   {
     "tableaumetrics": {
       "dashboard": "Dashboard 1",
-      "measures": [
-        "SUM(Profit)",
-        "SUM(Quantity)",
-        "SUM(Sales)"
-      ],
-      "dimensions": [
-        "Country",
-        "State"
-      ],
-      "textTemplate": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The most sales were in <HighestSalesRegion> , amounting to <HighestSales>. The most number of quantities of goods sold was <HighestQuantity>, and it was recorded in <HighestQuantityRegion>."
+      "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The lowest profit of <LowestProfit> were observed in <LowestProfitRegion>.",
+      "textTemplateSameRegion" : "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
+      "textTemplateCategory" : "The sales were highest in the <HighestSalesCategory> and were recorded to be at <HighestSales>."
     }
   }
 ]
