@@ -11,7 +11,7 @@
         "Country",
         "State"
       ],
-      "textTemplate": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>."
+      "textTemplate": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The most sales were in <HighestSalesRegion> , amounting to <HighestSales>. The most number of quantities of goods sold was <HighestQuantity>, and it was recorded in <HighestQuantityRegion>."
     }
   }
 ]
