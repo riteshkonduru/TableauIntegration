@@ -4,9 +4,9 @@
     "Dashboard1": {
       "Name" : "Dashboard 1",
       "Measures": 
-                [{ "Sales" : "SUM(Profit)" , "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"} ,
-                 { "Quantity" : "SUM(Quantity)", "PlaceHolder1" : "HighestQuantityRegion" , "PlaceHolder2" : "HighestQuantity"},
-                 { "Profit" : "SUM(Profit)", "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"}],
+                [{ "FriendlyName" : "Profit" ,"Name" : "SUM(Profit)" , "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"} ,
+                 { "FriendlyName" : "Quantity", "Name" : "SUM(Quantity)", "PlaceHolder1" : "HighestQuantityRegion" , "PlaceHolder2" : "HighestQuantity"},
+                 { "FriendlyName" : "Sales", "Name" : "SUM(Sales)", "PlaceHolder1" : "HighestSalesRegion" , "PlaceHolder2" : "HighestSales"}],
 
       "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The lowest profit of <LowestProfit> were observed in <LowestProfitRegion>.",
       "textTemplateSameRegion" : "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
