@@ -3,20 +3,10 @@
   {
     "Dashboard1": {
       "Name" : "Dashboard 1",
-      "Measures": {
-                "SUM(Profit)" : 
-                {
-                        "FriendlyName" : "Profit" ,"Name" : "SUM(Profit)" , "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"
-                },
-                "SUM(Quantity)" : 
-                {
-                        "FriendlyName" : "Quantity", "Name" : "SUM(Quantity)", "PlaceHolder1" : "HighestQuantityRegion" , "PlaceHolder2" : "HighestQuantity"
-                },
-                "SUM(Sales)" : 
-                {
-                        "FriendlyName" : "Sales", "Name" : "SUM(Sales)", "PlaceHolder1" : "HighestSalesRegion" , "PlaceHolder2" : "HighestSales"
-                }
-    },
+      "Measures": 
+                [{ "FriendlyName" : "Profit" ,"Name" : "SUM(Profit)" , "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"} ,
+                 { "FriendlyName" : "Quantity", "Name" : "SUM(Quantity)", "PlaceHolder1" : "HighestQuantityRegion" , "PlaceHolder2" : "HighestQuantity"},
+                 { "FriendlyName" : "Sales", "Name" : "SUM(Sales)", "PlaceHolder1" : "HighestSalesRegion" , "PlaceHolder2" : "HighestSales"}],
       "Dimension1" : "State",
       "Dimension2" : "Measure Names",
       "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
