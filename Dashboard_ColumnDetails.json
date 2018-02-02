@@ -20,11 +20,20 @@
           "Name": "SUM(Sales)",
           "PlaceHolder1": "HighestSalesRegion",
           "PlaceHolder2": "HighestSales"
+        },
+        "MeasureValuesByOrderDate": {
+          "FriendlyName": "Category",
+          "Name": "Measure Values",
+          "PlaceHolder1": "HighestByOrderDate",
+          "PlaceHolder2": "LowestByOrderDate",
+          "PlaceHolder3" : "LowestOrderDate",
+          "PlaceHolder4" : "HighestOrderDate"
         }
       },
       "Dimensions": {
         "Dimension1": "State",
-        "Dimension2": "Measure Names"
+        "Dimension2": "Measure Names",
+        "Dimension3" : "DAY(Order Date)"
       },
       "TextTemplates": {
         "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
