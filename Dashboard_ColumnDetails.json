@@ -22,18 +22,27 @@
           "PlaceHolder2": "HighestSales"
         },
         "MeasureValuesByOrderDate": {
-          "FriendlyName": "Category",
+          "FriendlyName": "Order Date",
           "Name": "Measure Values",
           "PlaceHolder1": "HighestByOrderDate",
           "PlaceHolder2": "LowestByOrderDate",
           "PlaceHolder3" : "LowestOrderDate",
           "PlaceHolder4" : "HighestOrderDate"
+        },
+        "MeasureValuesByCategory": {
+          "FriendlyName": "Category",
+          "Name": "Measure Values",
+          "PlaceHolder1": "HighestNumByCategory",
+          "PlaceHolder2": "HighestByCategory",
+          "PlaceHolder3" : "LowestNumByCategory",
+          "PlaceHolder4" : "LowestNum"
         }
       },
       "Dimensions": {
         "Dimension1": "State",
         "Dimension2": "Measure Names",
-        "Dimension3" : "DAY(Order Date)"
+        "Dimension3" : "DAY(Order Date)",
+        "Dimension4" : "Category"
       },
       "textTemplates": {
         "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
