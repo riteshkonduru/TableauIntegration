@@ -1,20 +1,36 @@
 [
-  
   {
     "Dashboard1": {
-      "Name" : "Dashboard 1",
-      "Measures": 
-                [{ "FriendlyName" : "Profit" ,"Name" : "SUM(Profit)" , "PlaceHolder1" : "HighestProfitRegion" , "PlaceHolder2" : "HighestProfit"} ,
-                 { "FriendlyName" : "Quantity", "Name" : "SUM(Quantity)", "PlaceHolder1" : "HighestQuantityRegion" , "PlaceHolder2" : "HighestQuantity"},
-                 { "FriendlyName" : "Sales", "Name" : "SUM(Sales)", "PlaceHolder1" : "HighestSalesRegion" , "PlaceHolder2" : "HighestSales"}],
-      "Dimensions" : {
-      "Dimension1" : "State",
-      "Dimension2" : "Measure Names" },
-      "textTemplates" :
-      {
-      "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
-      "textTemplateSameRegion" : "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
-      "textTemplateCategory" : "The sales were highest in the <HighestSalesCategory> and were recorded to be at <HighestSalesNumCategory>."}
+      "Name": "Dashboard 1",
+      "Measures": {
+        "SUM(Profit)": {
+          "FriendlyName": "Profit",
+          "Name": "SUM(Profit)",
+          "PlaceHolder1": "HighestProfitRegion",
+          "PlaceHolder2": "HighestProfit"
+        },
+        "SUM(Quantity)": {
+          "FriendlyName": "Quantity",
+          "Name": "SUM(Quantity)",
+          "PlaceHolder1": "HighestQuantityRegion",
+          "PlaceHolder2": "HighestQuantity"
+        },
+        "SUM(Sales)": {
+          "FriendlyName": "Sales",
+          "Name": "SUM(Sales)",
+          "PlaceHolder1": "HighestSalesRegion",
+          "PlaceHolder2": "HighestSales"
+        }
+      },
+      "Dimensions": {
+        "Dimension1": "State",
+        "Dimension2": "Measure Names"
+      },
+      "TextTemplates": {
+        "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
+        "textTemplateSameRegion": "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
+        "textTemplateCategory": "The sales were highest in the <HighestSalesCategory> and were recorded to be at <HighestSalesNumCategory>."
+      }
     }
   }
 ]
