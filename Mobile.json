@@ -10,7 +10,7 @@
     {
       "tableaumetrics": {
         "dashboard": "SimpleDashboard",
-        "reportUrl": "https://public.tableau.com/views/SimpleDashboard_1/Story1",
+        "reportUrl": "https://public.tableau.com/views/SimpleDashboard_1/Dashboard1",
         "dashboardPart": ["Discount by Region","Sales by Region"]
     }
     }
