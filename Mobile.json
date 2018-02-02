@@ -1,16 +1,17 @@
 [
   {
-    "tableaumetrics": {
+    "tableaumetrics": { 
       "dashboard": "Dashboard 1",
       "reportUrl": "https://public.tableau.com/profile/sarat.varanasi#!/vizhome/SalesDashboard_414/Dashboard1",
       "dashboardPart": ["Map","Line", "Category Bar", "Bubbles"]
-    },
-    "tableaumetrics2": {
-      "dashboard": "SimpleDashboard",
-      "reportUrl": "https://public.tableau.com/profile/ajinkya1892#!/vizhome/SimpleDashboard_1/Story1",
-      "dashboardPart": ["Discount by Region","Sales by Region"]
     }
-
-
-  }
+   
+    },
+    {
+      "tableaumetrics": {
+        "dashboard": "SimpleDashboard",
+        "reportUrl": "https://public.tableau.com/profile/ajinkya1892#!/vizhome/SimpleDashboard_1/Story1",
+        "dashboardPart": ["Discount by Region","Sales by Region"]
+    }
+    }
 ]
