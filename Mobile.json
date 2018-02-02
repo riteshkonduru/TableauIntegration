@@ -2,7 +2,7 @@
   {
     "tableaumetrics": { 
       "dashboard": "Dashboard 1",
-      "reportUrl": "https://public.tableau.com/profile/sarat.varanasi#!/vizhome/SalesDashboard_414/Dashboard1",
+      "reportUrl": "https://public.tableau.com/views/SalesDashboard_414/Dashboard1",
       "dashboardPart": ["Map","Line", "Category Bar", "Bubbles"]
     }
    
@@ -10,7 +10,7 @@
     {
       "tableaumetrics": {
         "dashboard": "SimpleDashboard",
-        "reportUrl": "https://public.tableau.com/profile/ajinkya1892#!/vizhome/SimpleDashboard_1/Story1",
+        "reportUrl": "https://public.tableau.com/views/SimpleDashboard_1/Story1",
         "dashboardPart": ["Discount by Region","Sales by Region"]
     }
     }
