@@ -65,7 +65,7 @@
       },
       "textTemplates": {
         "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
-        "textTemplateSubCategory" : "The profits were highest in <HighestProfitBySubRegion>, standing at <HighestProfitBySub>. The quantity shipped of <HighestQuantityBySub> was highest in <HighestQuantityBySubRegion> and the sales were highest in <HighestSalesBySubRegion>. ",
+        "textTemplateSubCategory" : "We have the highest profits under <HighestProfitBySubRegion> sub category, standing at <HighestProfitBySub>. The most number of quantities(<HighestQuantityBySub>) were of <HighestQuantityBySubRegion> sub category, and the sales were highest in <HighestSalesBySubRegion>. ",
         "textTemplateSameRegion": "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
         "textTemplateCategory": "The sales were highest in the <HighestSalesCategory> and were recorded to be at <HighestSalesNumCategory>."
       }
