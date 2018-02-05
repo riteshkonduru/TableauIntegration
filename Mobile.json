@@ -14,7 +14,7 @@
         "<HighestQuantity>" : "Analytics.HighestQuantity",
         "<HighestSales>" : "Analytics.HighestSales",
         "<HighestSalesBySub>" : "Analytics.HighestSalesBySub",
-        "<HighestProfitBySubRegion>" : "Analytics.HighestProfitBySubRegion",
+        "<HighestProfitBySub>" : "Analytics.HighestProfitBySub",
         "<HighestProfitBySubRegion>" :"Analytics.HighestProfitBySubRegion",
         "<HighestQuantityBySub>" : "Analytics.HighestQuantityBySub",
         "<HighestQuantityBySubRegion>" : "Analytics.HighestQuantityBySubRegion",
