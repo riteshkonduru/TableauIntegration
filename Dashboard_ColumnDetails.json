@@ -26,18 +26,18 @@
           "Name": "Measure Values",
           "PlaceHolder7": "HighestByOrderDate",
           "PlaceHolder8": "LowestByOrderDate",
-          "PlaceHolder9" : "LowestOrderDate",
-          "PlaceHolder10" : "HighestOrderDate",
-          "PlaceHolder22" : "HighestMeasureNameByOrder"
+          "PlaceHolder9": "LowestOrderDate",
+          "PlaceHolder10": "HighestOrderDate",
+          "PlaceHolder22": "HighestMeasureNameByOrder"
         },
         "MeasureValuesByCategory": {
           "FriendlyName": "Category",
           "Name": "Measure Values",
           "PlaceHolder11": "HighestNumByCategory",
           "PlaceHolder12": "HighestByCategory",
-          "PlaceHolder13" : "LowestNumByCategory",
-          "PlaceHolder14" : "LowestNum",
-          "PlaceHolder21" : "HighestMeasureNameByCategory"
+          "PlaceHolder13": "LowestNumByCategory",
+          "PlaceHolder14": "LowestNum",
+          "PlaceHolder21": "HighestMeasureNameByCategory"
         },
         "SUM(Profit)SubCategory": {
           "FriendlyName": "ProfitBySubCategory",
@@ -61,16 +61,39 @@
       "Dimensions": {
         "Dimension1": "State",
         "Dimension2": "Measure Names",
-        "Dimension3" : "DAY(Order Date)",
-        "Dimension4" : "Category",
-        "Dimension5" : "Sub-Category"
+        "Dimension3": "DAY(Order Date)",
+        "Dimension4": "Category",
+        "Dimension5": "Sub-Category"
       },
       "textTemplates": {
-        "textTemplateOrderDate" : "On <HighestOrderDate>, the <HighestMeasureNameByOrder> were at the at the top, recorded at <HighestByOrderDate>.",
+        "textTemplateOrderDate": "On <HighestOrderDate>, the <HighestMeasureNameByOrder> were at the at the top, recorded at <HighestByOrderDate>.",
         "textTemplateDifferentRegion": "The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
-        "textTemplateSubCategory" : "We have the highest profits under <HighestProfitBySubRegion> sub category, standing at <HighestProfitBySub>. The most number of quantities(<HighestQuantityBySub>) were of <HighestQuantityBySubRegion> and the sales were highest in <HighestSalesBySubRegion>. ",
+        "textTemplateSubCategory": "We have the highest profits under <HighestProfitBySubRegion> sub category, standing at <HighestProfitBySub>. The most number of quantities(<HighestQuantityBySub>) were of <HighestQuantityBySubRegion> and the sales were highest in <HighestSalesBySubRegion>. ",
         "textTemplateSameRegion": "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
         "textTemplateCategory": "Under the <HighestByCategory> category we have the highest <HighestMeasureNameByCategory>, standing at <HighestNumByCategory>."
+      }
+    },
+    "SimpleDashboard": {
+      "Name": "SimpleDashboard",
+      "Measures": {
+        "AVG(Discount)": {
+          "FriendlyName": "AVG(Discount)",
+          "Name": "AVG(Discount)",
+          "PlaceHolder1": "HighestAvgDiscount",
+          "PlaceHolder2": "HighestAvgDiscountRegion"
+        },
+        "SUM(Sales)": {
+          "FriendlyName": "SUM(Sales)",
+          "Name": "SUM(Sales)",
+          "PlaceHolder1": "HighestSales",
+          "PlaceHolder2": "HighestSalesByRegion"
+        }
+      },
+      "Dimensions": {
+        "Dimension1": "Region"
+      },
+      "textTemplates": {
+        "textTemplateSummary": "The most average of discounts of <HighestAvgDiscount> was given in <HighestAvgDiscountRegion>, and the sales were highest in  <HighestSalesByRegion>"
       }
     }
   }
