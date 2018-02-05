@@ -10,6 +10,8 @@
         {
         "<HighestSalesRegion>": "Analytics.HighestSalesRegion",
         "<HighestProfit>" : "Analytics.HighestProfit",
+        "<HighestProfitRegion>" : "Analytics.HighestProfitRegion",
+        "<HighestQuantityRegion>" : "Analytics.HighestQuantityRegion",
         "<HighestSalesCategory>" : "Analytics.HighestSalesCategory",
         "<HighestQuantity>" : "Analytics.HighestQuantity",
         "<HighestSales>" : "Analytics.HighestSales",
@@ -28,7 +30,7 @@
         },
         "template" :
         {
-          "NLGTemplate" : "<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestSalesBySubRegion>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>|<HighestProfitBySubRegion>|<HighestQuantityBySubRegion>"
+          "NLGTemplate" : "<HighestProfitRegion>|<HighestQuantityRegion>|<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestSalesBySubRegion>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>|<HighestProfitBySubRegion>|<HighestQuantityBySubRegion>"
         }
       }
 
