@@ -79,8 +79,8 @@
         "AVG(Discount)": {
           "FriendlyName": "AVG(Discount)",
           "Name": "AVG(Discount)",
-          "PlaceHolder1": "HighestAvgDiscount",
-          "PlaceHolder2": "HighestAvgDiscountRegion"
+          "PlaceHolder3": "HighestAvgDiscount",
+          "PlaceHolder4": "HighestAvgDiscountRegion"
         },
         "SUM(Sales)": {
           "FriendlyName": "SUM(Sales)",
