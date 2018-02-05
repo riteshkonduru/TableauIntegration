@@ -3,7 +3,32 @@
     "tableaumetrics": { 
       "dashboard": "Dashboard 1",
       "reportUrl": "https://public.tableau.com/views/SalesDashboard_414/Dashboard1",
-      "dashboardPart": ["Map","Line", "Category Bar", "Bubbles"]
+      "dashboardPart": ["Map","Line", "Category Bar", "Bubbles"],
+         "NLG" :
+      {
+        "map" :
+        {
+        "<HighestSalesRegion>": "Analytics.HighestSalesRegion",
+        "<HighestProfit>" : "Analytics.HighestProfit",
+        "<HighestSalesCategory>" : "Analytics.HighestSalesCategory",
+        "<HighestQuantity>" : "Analytics.HighestQuantity",
+        "<HighestSales>" : "Analytics.HighestSales",
+        "<HighestSalesBySub>" : "Analytics.HighestSalesBySub",
+        "<HighestProfitBySub>" : "Analytics.HighestProfitBySub",
+        "<HighestQuantityBySub>" : "Analytics.HighestQuantityBySub",
+        "<HighestByCategory>" : "Analytics.HighestByCategory",
+        "<HighestMeasureNameByCategory>" : "Analytics.HighestMeasureNameByCategory",
+        "<HighestNumByCategory>" : "Analytics.HighestNumByCategory",
+        "<HighestOrderDate>" : "Analytics.HighestOrderDate",
+        "<HighestMeasureNameByOrder>" : "Analytics.HighestMeasureNameByOrder",
+        "<HighestByOrderDate>": "Analytics.HighestByOrderDate"
+        },
+        "template" :
+        {
+          "NLGTemplate" : "/<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>/"
+        }
+      }
+
     }
    
     },
