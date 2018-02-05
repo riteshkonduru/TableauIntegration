@@ -25,7 +25,7 @@
         },
         "template" :
         {
-          "NLGTemplate" : "/<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>/"
+          "NLGTemplate" : "/<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>"
         }
       }
 
