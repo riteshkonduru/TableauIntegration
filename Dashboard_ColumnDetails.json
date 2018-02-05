@@ -71,32 +71,7 @@
         "textTemplateSubCategory" : "We have the highest profits under <HighestProfitBySubRegion> sub category, standing at <HighestProfitBySub>. The most number of quantities(<HighestQuantityBySub>) were of <HighestQuantityBySubRegion> and the sales were highest in <HighestSalesBySubRegion>. ",
         "textTemplateSameRegion": "The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
         "textTemplateCategory": "Under the <HighestByCategory> category we have the highest <HighestMeasureNameByCategory>, standing at <HighestNumByCategory>."
-      },
-      "NLG" :
-      {
-        "map" :
-        {
-        "<HighestSalesRegion>": "Analytics.HighestSalesRegion",
-        "<HighestProfit>" : "Analytics.HighestProfit",
-        "<HighestSalesCategory>" : "Analytics.HighestSalesCategory",
-        "<HighestQuantity>" : "Analytics.HighestQuantity",
-        "<HighestSales>" : "Analytics.HighestSales",
-        "<HighestSalesBySub>" : "Analytics.HighestSalesBySub",
-        "<HighestProfitBySub>" : "Analytics.HighestProfitBySub",
-        "<HighestQuantityBySub>" : "Analytics.HighestQuantityBySub",
-        "<HighestByCategory>" : "Analytics.HighestByCategory",
-        "<HighestMeasureNameByCategory>" : "Analytics.HighestMeasureNameByCategory",
-        "<HighestNumByCategory>" : "Analytics.HighestNumByCategory",
-        "<HighestOrderDate>" : "Analytics.HighestOrderDate",
-        "<HighestMeasureNameByOrder>" : "Analytics.HighestMeasureNameByOrder",
-        "<HighestByOrderDate>": "Analytics.HighestByOrderDate"
-        },
-        "template" :
-        {
-          "NLGTemplate" : "/<HighestSalesRegion>|<HighestProfit>|<HighestSalesCategory>|<HighestQuantity>|<HighestSales>|<HighestSalesBySub>|<HighestProfitBySub>|<HighestQuantityBySub>|<HighestByCategory>|<HighestMeasureNameByCategory>|<HighestNumByCategory>|<HighestOrderDate>|<HighestMeasureNameByOrder>|<HighestByOrderDate>/"
-        }
       }
-
     }
   }
 ]
