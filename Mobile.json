@@ -41,7 +41,20 @@
       "tableaumetrics": {
         "dashboard": "SimpleDashboard",
         "reportUrl": "https://public.tableau.com/views/SimpleDashboard_1/Dashboard1",
-        "dashboardPart": ["Discount by Region","Sales by Region"]
+        "dashboardPart": ["Discount by Region","Sales by Region"],
+        "NLG" :
+      {
+        "map" :
+        {
+        "<HighestAvgDiscount>": "Analytics.HighestAvgDiscount",
+        "<HighestAvgDiscountRegion>" : "Analytics.HighestAvgDiscountRegion",
+        "<HighestSalesByRegion>" : "Analytics.HighestSalesByRegion"
+        },
+        "template" :
+        {
+          "NLGTemplate" : "<HighestAvgDiscount>|<HighestAvgDiscountRegion>|<HighestSalesByRegion>"
+        }
+      }
     }
     }
 ]
