@@ -1,7 +1,7 @@
 [
   {
     "Dashboard1": {
-      "Name": "Dashboard 1",
+      "Name": "mobile",
       "Measures": {
         "SUM(Profit)": {
           "FriendlyName": "Profit",
