@@ -67,9 +67,9 @@
       },
       "textTemplates": {
         "textTemplateOrderDate": "The third sheet from the top shows Sales, quantity shipped and profit by Order Date. On <HighestOrderDate>, the <HighestMeasureNameByOrder> were at the at the top, recorded at <HighestByOrderDate>.",
-        "textTemplateDifferentRegion": "The first sheet shows Profits, Sales and quantity by Region. The profits were highest in <HighestProfitRegion>, standing at <HighestProfit>. The quantity shipped of <HighestQuantity> was highest in <HighestQuantityRegion> and the sales were highest in <HighestSalesRegion>. ",
+        "textTemplateDifferentRegion": "The first sheet shows Profits, Sales and quantity by Region. The profits were highest in <HighestProfitRegion>, standing at <HighestProfit> and the sales were highest in <HighestSalesRegion>.",
         "textTemplateSubCategory": "The fourth sheet from the top shows the key metrics by Sub- Category. We have the highest profits under <HighestProfitBySubRegion> sub category, standing at <HighestProfitBySub>. The most number of quantities(<HighestQuantityBySub>) were of <HighestQuantityBySubRegion> and the sales were highest in <HighestSalesBySubRegion>. ",
-        "textTemplateSameRegion": "The first sheet shows Profits, Sales and quantity by Region. The best performing region was <HighestSalesRegion>, with the sales being at <HighestSales>, the quantity shipped was <HighestQuantity> and the profits were recorded to be <HighestProfit>.",
+        "textTemplateSameRegion": "The first sheet shows Profits, Sales and quantity by Region. The best performing region was <HighestSalesRegion>, with sales being <HighestSales> and the profits of <HighestProfit>.",
         "textTemplateCategory": "The second sheet shows these key metrics by Category. Under the <HighestByCategory> category we have the highest <HighestMeasureNameByCategory>, standing at <HighestNumByCategory>."
       }
     },
