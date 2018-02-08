@@ -56,5 +56,25 @@
         }
       }
     }
+    },
+    {
+      "tableaumetrics": {
+        "dashboard": "data_quality",
+        "reportUrl": "https://public.tableau.com/views/SampleDashboard_133/ExecutiveView?:embed=y&:display_count=no",
+        "dashboardPart": ["Region View", "Sheet 13", "Outliers"],
+        "NLG" :
+      {
+        "map" :
+        {
+        "<HighestAvgDiscount>": "Analytics.HighestAvgDiscount",
+        "<HighestAvgDiscountRegion>" : "Analytics.HighestAvgDiscountRegion",
+        "<HighestSalesByRegion>" : "Analytics.HighestSalesByRegion"
+        },
+        "template" :
+        {
+          "NLGTemplate" : "<HighestAvgDiscount>|<HighestAvgDiscountRegion>|<HighestSalesByRegion>"
+        }
+      }
+    }
     }
 ]
